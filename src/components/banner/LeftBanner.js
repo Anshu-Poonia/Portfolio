@@ -6,17 +6,13 @@ import Media from './Media';
 const LeftBanner = () => {
     const [text] = useTypewriter({
       words: [
-        "Professional Coder.",
         "Full Stack Developer.",
         "UI Designer.",
         "Web Developer.",
-        "Software Engineer.",
         "React Developer.",
         "Frontend Developer.",
         "Backend Developer.",
         "Tech Enthusiast.",
-        "Creative Coder.",
-        "Digital Thinker.",
       ],
       loop: true,
       typeSpeed: 20,
@@ -33,7 +29,7 @@ const LeftBanner = () => {
           <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
           <h1 className="text-6xl font-bold text-white">
             Hi, I'm{" "}
-            <span className="text-designColor capitalize">Daniel Ndeto</span>
+            <span className="text-designColor capitalize">Anshu Poonia</span>
           </h1>
           <h2 className="text-4xl font-bold text-pink">
             a <span>{text}</span>

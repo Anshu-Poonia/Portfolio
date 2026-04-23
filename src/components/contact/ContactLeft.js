@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub} from "react-icons/fa";
 import { contactImg } from "../../assets/index";
 
 // This component is used to display the left side of the contact form
@@ -15,7 +15,7 @@ const ContactLeft = () => {
 
       {/* This section contains the contact details */}
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">Daniel Ndeto</h3>
+        <h3 className="text-3xl font-bold text-white">Anshu Poonia</h3>
         <p className="text-lg font-normal text-gray-400">
           MERN Stack Developer
         </p>
@@ -26,11 +26,11 @@ const ContactLeft = () => {
           experiences that are both innovative and reliable.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+254 113 877 422</span>
+          Phone: <span className="text-lightText">+91 9257279953</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email:{" "}
-          <span className="text-lightText">danielndeto222@gmail.com</span>
+          <span className="text-lightText">anshupoonia902005@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
@@ -38,25 +38,7 @@ const ContactLeft = () => {
         <div className="flex gap-4">
           <span className="bannerIcon">
             <a
-              href="https://www.facebook.com/profile.php?id=100075378249781"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaFacebookF />
-            </a>
-          </span>
-          <span className="bannerIcon">
-            <a
-              href="https://x.com/musyoki_017"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaTwitter />
-            </a>
-          </span>
-          <span className="bannerIcon">
-            <a
-              href="https://www.linkedin.com/in/daniel-ndeto-187a8b292"
+              href="https://www.linkedin.com/in/anshu-poonia"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -65,20 +47,11 @@ const ContactLeft = () => {
           </span>
           <span className="bannerIcon">
             <a
-              href="https://github.com/daniel-ndeto"
+              href="https://github.com/Anshu-Poonia"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub />
-            </a>
-          </span>
-          <span className="bannerIcon">
-            <a
-              href="https://github.com/daniel"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram />
             </a>
           </span>
         </div>

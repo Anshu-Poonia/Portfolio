@@ -17,59 +17,19 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SCHOOL MANAGEMENT SYSTEM"
-          des="An all-inclusive system designed for academic institutions.
-          This platform streamlines student enrollment, attendance tracking,
-          grade management, and communication between staff, teachers, and students."
-          src={projectOne}
-          githubLink="https://github.com/daniel-ndeto/school-management-system.git" // Replace with actual link
-          liveLink="https://school-management-system-hazel-eta.vercel.app" // Replace with actual link or remove if no live site
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des="A fully responsive online store offering secure payment integration,
-          efficient inventory management, and an intuitive user interface that delivers
-           a seamless shopping experience for customers."
+          title="Hand-bag Website using Backend"
+          des="In this project, I developed a hand-bag website using backend technologies. The website allows users to browse and purchase various hand-bag products. I implemented features such as user authentication, product management, and order processing. The backend was built using Node.js and Express, while the frontend was created with EJS. This project demonstrates my ability to create a full-stack web application with a focus on e-commerce functionality."
           src={projectTwo}
-          githubLink="https://github.com/daniel-ndeto/tech-lab97-ecommerce-app.git" // Replace with actual link
-          liveLink="https://your-ecommerce-live-url.com" // Replace with actual link
+          githubLink="https://github.com/Anshu-Poonia/Project--Scatch.git" // Replace with actual link
+          // liveLink="https://your-ecommerce-live-url.com" // Replace with actual link
         />
         <ProjectsCard
-          title="Chatting App"
-          des="A real-time messaging application that supports one-to-one and group chats,
-          media sharing, and push notifications. Built with modern web technologies to enable
-          instantaneous communication."
-          src={projectThree}
-          githubLink="https://github.com/daniel-ndeto/AmigoChat-Realtime-Chat-Application.git" // Replace with actual link
-          liveLink="https://amigochat.netlify.app/" // Replace with actual link or remove if no live site
-        />
-        <ProjectsCard
-          title="TRAVEL BOOKING APP"
-          des="An intuitive travel platform that simplifies the search and booking of flights,
-          hotels, and tours. Emphasizing personalization, it offers users tailored travel
-          recommendations and streamlined booking processes."
-          src={projectThree} // Consider using a different image if available
-          githubLink="https://github.com/yourusername/travel-booking-app" // Replace with actual link
-          liveLink="https://your-travel-app-live-url.com" // Replace with actual link
-        />
-        <ProjectsCard
-          title="COLLEGE MANAGEMENT SYSTEM"
-          des="A robust portal tailored for higher education institutions.
-          It facilitates course scheduling, faculty coordination, student information
-          management, and streamlines day-to-day administrative tasks."
-          src={projectOne} // Consider using a different image if available
-          githubLink="https://github.com/yourusername/college-management-system" // Replace with actual link
-          liveLink="#" // Replace with actual link or remove if no live site
-        />
-        <ProjectsCard
-          title="LMS SYSTEM"
-          des="A feature-rich Learning Management System (LMS) designed to enhance
-           online education. It offers interactive course
-           materials, real-time progress tracking, assessments, and comprehensive reporting
-           for educators."
-          src={projectTwo} // Consider using a different image if available
-          githubLink="https://github.com/yourusername/lms-system" // Replace with actual link
-          liveLink="https://your-lms-live-url.com" // Replace with actual link
+          title="JWT Authentication System using MERN Stack"
+          des="Built a secure authentication system using the MERN stack (MongoDB, Express, React, Node.js) with JWT-based authentication. Implemented user registration, login, and protected routes. Added password reset functionality for account recovery and email verification to ensure valid users. The project demonstrates full-stack development skills, focusing on security, scalability, and real-world application features.
+"
+          src={projectOne}
+          githubLink="https://github.com/Anshu-Poonia/Authentication-Authorisation-Project.git" // Replace with actual link
+          // liveLink="https://your-ecommerce-live-url.com" // Replace with actual link
         />
       </div>
     </section>
