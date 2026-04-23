@@ -31,6 +31,13 @@ const Projects = () => {
           githubLink="https://github.com/Anshu-Poonia/Authentication-Authorisation-Project.git" // Replace with actual link
           // liveLink="https://your-ecommerce-live-url.com" // Replace with actual link
         />
+        <ProjectsCard
+          title="Personal Portfolio Website"
+          des="Developed a responsive personal portfolio website to showcase my skills, projects, and experience. The website features a modern design with smooth animations and a clean layout. Built with React and styled-components for a dynamic user experience."
+          src={projectThree}
+          githubLink="https://github.com/Anshu-Poonia/Portfolio.git" // Replace with actual link
+          // liveLink="https://your-portfolio-live-url.com" // Replace with actual link
+        />
       </div>
     </section>
   );
