@@ -12,7 +12,7 @@ const educationData = [
   {
     title: "Senior Secondary School Education",
     subTitle: "Tagore Public School, Rajgarh (CHURU) (2022 - 2023)",
-    result: "6.2/10",
+    result: "91.20%",
     des: "Developed analytical skills and participated in extracurricular activities."
   }
 ];
