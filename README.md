@@ -1,13 +1,14 @@
 # REACT PORTFOLIO 🚀
 This is a simple React portfolio website built using React, styled-components, and other modern web development tools. It showcases my skills, projects, and contact information.
+It is completely based on REACT.JS and, using Tailwind.css for styling.
 
 
-
-## Installation
+## Installation process of this portfolio project is given below
+## You can clone the project using the given bash.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/daniel-ndeto/react-portfolio.git
+    git clone https://github.com/Anshu-Poonia/Portfolio.git
     cd react-portfolio 📁
     ```
 
